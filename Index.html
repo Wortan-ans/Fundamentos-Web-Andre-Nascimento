@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fumdamentos da Programação Web - Portifólio pessoal André</title>
+
+    <style>
+
+        html{background-color: rgb(189,176,148);}
+        hr{
+            border-color:peru;
+        }
+
+        #linha{display: flex; list-style: none;} /* feito para corrigir a lista do menu para que ficasse os links na mesma linha*/
+
+        #menu{ /* configurações do menu com padding para ficar um link oval, com display fex para corrigir em linha*/
+            display: flex; 
+            list-style: none;
+            float: inline-end;
+            margin-left: 90px;
+            margin-right: 100px;
+            padding: 10px 20px;
+            background-color: peru;
+            border-radius: 45%;
+            text-align: center;
+            color: rgb(255,201,14);
+            font-family: cursive;
+            text-decoration: none;
+
+        }
+        #retorno{            
+            padding: 10px 20px;
+            background-color: peru;
+            border-radius: 45%;
+            text-align: center;
+            color: rgb(255,201,14);
+            font-family: cursive;
+            text-decoration: none;
+
+        }
+
+        #menu:hover{
+            background-color:blueviolet;
+            color:coral;
+        }
+
+
+        #retorno:hover{
+            background-color:blueviolet;
+            color:coral;
+        }
+
+        h1{ color: rgb(255,201,14);
+            text-align: center;
+            font-family: cursive;
+            font-size: 40px;
+        }
+
+        h2{ color: rgb(255,201,14);
+            text-align: center;
+            font-family: cursive;
+            font-size: 28px;
+        }
+        h3{ color: rgb(255,201,14);
+            text-align: center;
+            font-family: cursive;
+            font-size: 22px;
+        }
+
+        h4{
+            color: rgb(255,201,14);
+            font-family: cursive;
+            font-size: 20px;
+        }
+
+        #faculdade{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        #margemform{
+            margin-bottom: 50px ;
+
+        }
+        
+        section{
+            margin-left: 10px;
+        }
+        
+        p{
+            text-indent:16px;
+            text-align: justify;
+        }
+
+        #fds{
+            margin-left: 25px;
+            font-family: cursive;
+        }
+
+        th{
+            color: rgb(255,201,14);
+            font-family: cursive;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>Curriculum Vitae - André Nascimento</h1>
+        <h2>Fundamentos da Programação Web</h2>   
+    </header>
+    <hr>
+    <nav>
+     <h3>Bem vindos ao meu Website</h3>
+
+     <ul id=linha>
+       <li><a href="#sobre" id="menu">Sobre mim</a></li>
+       <li><a href="#curriculo" id="menu">Formações</a></l>
+       <li><a href="#portifolio" id="menu">Portifólio</a></l>
+       <li><a href="#contato" id="menu">Contato</a></li>
+     </ul>
+    </nav>
+    <hr>
+    <section id="sobre">
+
+        <h4>Sobre mim</h4>
+        <p> Meu nome é André Nascimento Silva Costa, tenho 27 anos e moro em Petrolina - PE. 
+        Sempre tive interesse na área de tecnologia em geral, me formando em engenharia mecânica e durante a pandemia desenvolvi afinidade maior pela área de computação,
+        motivo pelo qual comecei a cursar Análise e Desenvolvimento de Sistemas. Tenho planos futuros para ingressar na área de Cybersegurança.</p>
+        <p>Meus hobbies incluem :</p>
+        <ul>
+            <li> Desenho artístico;</li>
+            <li> Tocar violão;</li>
+            <li> Assistir Séries e filmes;</li>
+            <li> Jogos de computador.</li>
+        </ul>
+        <p></p>
+        <p style="text-align: center;"><a id='retorno' href="#inicio">voltar ao início</a></p>
+        <p></p>
+    </section>
+
+    <hr>
+    <section id="curriculo">
+
+        <h4>Formações e Experiências</h4>
+        <p id="faculdade">UNIVASF | Juazeiro, BA</p>
+        <p>Jan de 2015 - Jan de 2020</p>
+        <p>Bacharel em Engenharia Mecânica</p>
+        <p id="margemform"></p>
+
+        <p id="faculdade">Unyleya | EAD</p>
+        <p>Jan de 2021 - Jan de 2022</p>
+        <p>Pós-graduação em Engenharia da Manutenção</p>
+        <p id="margemform"></p>
+
+        <p id="faculdade">UNINTER | EAD</p>
+        <p>Abril de 2021 - Jan de 2023</p>
+        <p>MBE em Engenharia da Qualidade e Produtividade</p>
+        <p id="margemform"></p>
+
+        <p id="faculdade">UNINTER | EAD</p>
+        <p>Abril de 2025 - Cursando</p>
+        <p>CST em Análise e Desenvolvimento de Sistemas</p>
+        <p id="margemform"></p>
+
+        <p id="faculdade">CODEVASF | Estágio em Engenharia Mecânica</p>
+        <p>Jan de 2019 - Jan de 2020</p>
+        <p>Estágio na CODEVASF envolvendo a emissão de especificações técnicas.</p>
+        <p id="margemform"></p>
+
+        <p id="faculdade">Design Gráfico | Trabalho Autônomo</p>
+        <p>Mar de 2023 - Atual</p>
+        <p>Trabalho autônomo envolvendo edições e criações de design em photoshop.</p>
+        <p id="margemform"></p>
+
+        
+        <p id="faculdade">Idiomas</p>
+        <ul>
+            <li>Português - Nativo</li>
+            <li>Inglês - Fluente</li>
+            <li>Espanhol - Intermediário</li>
+            <li>Libras - Intermediário</li>
+        </ul>
+        <p id="margemform"></p>
+
+        <p style="text-align: center;"><a id='retorno' href="#inicio">voltar ao início</a></p>
+        <p></p>
+    </section>
+
+    <hr>
+    <section id="portifolio">
+
+        <h4>Portifólio</h4>
+        <p>Site realizado durante o curso de Fundamentos de Desenvolvimento de Software:</p>
+        <p id="fds"><a href="https://github.com/Wortan-ans/trabalho.FDS">Link do código no Github</a></p>
+        <p id="fds"><a href="https://wortan-ans.github.io/trabalho.FDS/"> Link do Site</a></p>
+        <p style="text-align: center;"><a id='retorno' href="#inicio">voltar ao início</a></p>
+        <p></p>
+    </section>
+
+    <hr>
+    <section id="contato">
+
+        <h4>Links para contato</h4>
+        <form action="" method=""> 
+         <table>  
+            <tr> 
+                <th><label for="nome">Nome:</label></th> 
+                <td><input type="text" name="nome" id="nome"></td> 
+            </tr> 
+            <tr> 
+                <th><label for="email">E-mail:</label></th> 
+                <td><input type="email" name="email" id="email"></td> 
+            </tr> 
+            <tr> 
+                <th><label for="msg">Digite sua Mensagem:</label></th> 
+                <td><textarea name="msg" rows="7" cols="60">Digite aqui informações adicionais.</textarea></td> 
+            </tr> 
+            <tr> 
+                <td></td> 
+                <td> <button>Enviar</button></td>           
+            </tr> 
+        </table> 
+    </form> 
+        <p style="text-align: center;"><a id='retorno' href="#inicio">voltar ao início</a></p>
+        <p></p>    
+    </section>
+    
+
+
+
+</body>
+</html>
+

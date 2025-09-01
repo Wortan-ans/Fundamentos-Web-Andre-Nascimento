@@ -1,0 +1,95 @@
+        html{background-color: rgb(189,176,148);}
+        hr{
+            border-color:peru;
+        }
+
+        #linha{display: flex; list-style: none;} /* feito para corrigir a lista do menu para que ficasse os links na mesma linha*/
+
+        #menu{ /* configurações do menu com padding para ficar um link oval, com display fex para corrigir em linha*/
+            display: flex; 
+            list-style: none;
+            float: inline-end;
+            margin-left: 90px;
+            margin-right: 100px;
+            padding: 10px 20px;
+            background-color: peru;
+            border-radius: 45%;
+            text-align: center;
+            color: rgb(255,201,14);
+            font-family: cursive;
+            text-decoration: none;
+
+        }
+        #retorno{            
+            padding: 10px 20px;
+            background-color: peru;
+            border-radius: 45%;
+            text-align: center;
+            color: rgb(255,201,14);
+            font-family: cursive;
+            text-decoration: none;
+
+        }
+
+        #menu:hover{
+            background-color:blueviolet;
+            color:coral;
+        }
+
+
+        #retorno:hover{
+            background-color:blueviolet;
+            color:coral;
+        }
+
+        h1{ color: rgb(255,201,14);
+            text-align: center;
+            font-family: cursive;
+            font-size: 40px;
+        }
+
+        h2{ color: rgb(255,201,14);
+            text-align: center;
+            font-family: cursive;
+            font-size: 28px;
+        }
+        h3{ color: rgb(255,201,14);
+            text-align: center;
+            font-family: cursive;
+            font-size: 22px;
+        }
+
+        h4{
+            color: rgb(255,201,14);
+            font-family: cursive;
+            font-size: 20px;
+        }
+
+        #faculdade{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        #margemform{
+            margin-bottom: 50px ;
+
+        }
+        
+        section{
+            margin-left: 10px;
+        }
+        
+        p{
+            text-indent:16px;
+            text-align: justify;
+        }
+
+        #fds{
+            margin-left: 25px;
+            font-family: cursive;
+        }
+
+        th{
+            color: rgb(255,201,14);
+            font-family: cursive;
+        }
